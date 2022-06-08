@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #345;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+    padding: 15px 16px;
+}
+h2{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    align-self: center;
+    color: yellow;
+}
+.gray{
+    color: yellow;
+}
+.logo{
+    border-radius: 4px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-search{
+    position: fixed;
+    padding: 8px 35px;
+    right: 10%;
+    margin: 0 .1rem;
+    border-radius: 20px;
+}
+.head-title{
+    margin-bottom: 1rem;
+}
+.head-title > span{
+    color: yellow;
+}
+.head-text{
+    margin: 0 2rem;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+}
+.menu{
+    display: flex;
+    position: fixed;
+    align-self: center;
+    right: 3%;
+    margin-left: .2rem;
+}
+.menu >i{
+    font-size: 3rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem;
+}
+.card{
+    position: relative;
+    box-shadow: 4px 4.98256px 8.4564px rgb(248, 244, 4);
+    width: 170px;
+    margin: 1rem;
+    font-size: 12px;
+}
+.card-img{
+    width: 170px;
+    height: 180px;
+    border-radius: 9px;
+}
+.card-stats{
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+}
+.uil-favorite{
+    color: gold;
+    height: 14px;
+    width: 15px;
+    font-weight: 600;
+}
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    color: #000;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
